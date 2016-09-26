@@ -13,28 +13,31 @@
 					"id": 1,
                     "name": "Directives Masterclass",
                     "creatorName": "Bob Smith",
-                    "duration": 1,
+                    "start": "10:30",
+                    "end": "11:45",
                     "level": "Advanced",
-                    "abstract": "In this session you will learn the ins and outs of directives!",
-                    "upVoteCount": 0
+                    "description": "In this session you will learn the ins and outs of directives!",
+                    "like": 0
                 },
                 {
 					"id": 2,
                     "name": "Scopes for fun and profit",
                     "creatorName": "John Doe",
-                    "duration": 3,
+                    "start": "12:15",
+                    "end": "13:50",
                     "level": "Introductory",
-                    "abstract": "This session will take a closer look at scopes.  Learn what they do, how they do it, and how to get them to do it for you.",
-                    "upVoteCount": 0
+                    "description": "This session will take a closer look at scopes.  Learn what they do, how they do it, and how to get them to do it for you.",
+                    "like": 0
                 },
                 {
 					"id": 3,
                     "name": "Well Behaved Controllers",
                     "creatorName": "Jane Doe",
-                    "duration": 2,
+                    "start": "14:25",
+                    "end": "15:50",
                     "level": "Intermediate",
-                    "abstract": "Controllers are the beginning of everything Angular does.  Learn how to craft controllers that will win the respect of your friends and neighbors.",
-                    "upVoteCount": 0
+                    "description": "Controllers are the beginning of everything Angular does.  Learn how to craft controllers that will win the respect of your friends and neighbors.",
+                    "like": 0
                 }
             ]
         }
