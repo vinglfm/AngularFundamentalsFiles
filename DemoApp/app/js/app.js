@@ -1,3 +1,3 @@
 'use strict';
 
-var app = angular.module('eventsApp', []);
+var app = angular.module('eventsApp', ['ngResource']);

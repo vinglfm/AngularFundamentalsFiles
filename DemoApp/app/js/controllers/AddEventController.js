@@ -1,9 +1,9 @@
 'use strict';
 
-app.controller("EditController", ["$scope", "$location", function($scope, $location) {
+app.controller("EditController", ["$scope", "$location", "eventData", function($scope, $location, eventData) {
   $scope.addEvent = function(event, newFormEvent) {
     if(newFormEvent.$valid) {
-      console.log(event);
+      eventData.save(event);
     } else {
       console.log("not valid form");
     }
